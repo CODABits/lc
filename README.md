@@ -1,0 +1,2 @@
+# lc
+Estrategia Líderes Conscientes 
