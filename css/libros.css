@@ -1,0 +1,649 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500&display=swap');
+
+html {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">🛸</text></svg>')  15 0, auto
+}
+
+ li {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">🔑</text></svg>')  15 0, auto
+}
+
+#anima {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">👨‍🎓</text></svg>')  15 0, auto
+}
+
+.myButtonProject:hover {
+   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">⭐</text></svg>')  15 0, auto
+}
+
+/* .myButtonProject:active {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">⭐</text></svg>')  15 0, auto
+} */
+
+.myButtonProject {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">😃</text></svg>')  15 0, auto
+}
+
+.boton2 {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">🚀</text></svg>')  15 0, auto
+}
+
+.boton {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">🚀</text></svg>')  15 0, auto
+} 
+
+#botonMain {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><defs><filter id="shadow" x="0%" y="0%" width="200%" height="200%"><feDropShadow dx="1" dy="1" stdDeviation="3" flood-color="%235091b9" /></filter></defs><text filter="url(%23shadow)" x="0" y="14">🎯</text></svg>')  15 0, auto
+} 
+
+
+
+
+.card {
+  width: 190px;
+  height: 150px;
+  background: #180735; /* Bronce */
+  ;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ }
+
+
+
+body {
+  background:  #721f63;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+
+   
+}
+
+
+
+nav {
+  top: 0;
+  margin: 0;
+  position: fixed;
+  z-index:10;
+  width: 100%;
+ height: 50px;
+  background: #1d0d39;
+  /* box-shadow: 4px 7px 5px 0px rgba(62, 66, 66, 0.21); */
+  display: flex;
+  
+}
+
+#logo {
+  display: flex; /* Asegura que el contenido esté en la misma línea */
+  justify-content: flex-start; /* Posiciona el contenido a la izquierda */
+  align-items: center; /* Centra verticalmente el contenido */
+  position: relative; /* Cambié 'right' a 'relative' porque 'right' no es válido para 'position' */
+  width: 15%;
+  background: #1d0d39;
+  border: 5px solid transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ba2f8a;
+  font-family: 'Poppins', sans-serif; /* Aplica la fuente Poppins */
+  white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+  margin-left: -10px; /* Ajusta este valor para mover el logo más a la izquierda */
+}
+
+#titulo {
+  text-indent: -60px; /* Ajusta este valor para mover las letras más a la izquierda */
+}
+
+
+
+#titular{
+  
+
+background: #1d0d39;
+margin-top: 0%;
+position: relative;
+
+}
+
+#menu {
+  width: 85%;
+  display: flex;
+  position: right;
+  justify-content: right;
+  background: #1d0d39;
+ 
+  /* border: 2px solid red; */
+}
+
+li {
+  background: #1d0d39;
+  /* border-radius: 10%; */
+  align-items: center;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  list-style: none;
+  color: #ffffff;
+  font-weight: normal;
+font-weight: bold;
+
+  
+}
+
+
+
+
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  background-color: #fffbfa;
+}
+
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  width: 500px;
+}
+
+
+#boxMain{
+  padding-top: 50px;
+}
+  
+
+
+#astronauta{
+    /* border: 2px solid red; */
+    margin-top: 8%;
+}
+
+
+
+section {
+  padding: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+#box1 {
+  background-color: cadetblue;
+  background-size: cover;
+  border: solid rgb(238, 10, 86) 2px;
+  height: 1100px;
+  margin-bottom: 5px;
+}
+
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textoProjecto{
+    font-family: 'Work Sans', sans-serif;
+    color: #040655;
+
+  
+}
+
+.tituloMenor{
+  color: #280775;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.letraProjecto{
+  color: #280775;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+}
+
+.card-text{
+    width: 100%;
+    font-size: 8px;
+    font-size: 1vw;
+    justify-content: center;
+    /* border: solid purple 2px; */
+    color: white;
+    word-wrap: break-word;
+  }
+
+
+h1 {
+  color: #4c0e1a;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 2px #fbfbfb;
+  font-size: 3em;
+  text-align: center;
+  padding:0.4px;
+}
+
+h6 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 2px #4c0e1a;
+  font-size: 1em;
+  text-align: center;
+  padding:0.4px;
+}
+
+
+
+.proyecto{
+
+    color:whitesmoke ;
+    margin-top: 7%;
+}
+
+.contacto{
+
+    color:whitesmoke ;
+    margin-top: 7%;
+}
+
+.textoInicial {
+  font-size: 1em;
+  /*font-size: 1vw;*/
+  justify-content: center;
+  padding: 0 em 0 1em;
+  text-align: justify;
+  color:#ffffff;
+  width:90%;
+  
+}
+
+
+#botonMain{
+  text-align:center;
+  color: #f3f3f3;
+  border-radius: 25px;
+background-color:  #dc419d;
+}
+
+#luna {
+  margin-right: 10px; /* Espacio entre el logo y el título */
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 10px; /* Espaciado opcional */
+}
+
+/* #luna{
+  position: fixed;
+  z-index:10;
+  top:1em;
+  left:0.5%;
+  width: 20%; */
+  
+  /* border: 2px solid red; */
+ /* text-align: center*/
+  
+
+
+.boton {
+  box-shadow: inset 0px 1px 0px 0px #4c0e1a;
+  background-color: #dc419d;
+  border-radius: 6px;
+  border: 1px solid 4c0e1a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #6f2836;
+  margin-left: 38%;
+}
+
+
+
+
+.myButtonProject {
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    background-color: #3d94f6;
+    border-radius: 6px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1570cd;
+    margin-right: 25%;
+    margin-left: 31%;
+    
+  }
+  .myButtonProject:hover {
+    background: linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+    background-color: #1e62d0;
+  }
+  .myButtonProject:active {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+  }
+ 
+.popup {
+  width: 100%;
+  margin-left: 50%;
+  top: 0%;
+  left: 20%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: transform 0.4s, top 0.4s;
+ 
+}
+
+
+.open-popup {
+  visibility: visible;
+  top: 60%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup iframe {
+  width: 100%;
+  margin: 0 auto;
+} 
+
+.texto1 {
+  color: white;
+  padding: 1em;
+  text-align: justify;
+  font-size: 0.5em;
+}
+
+#box2 {
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  /* border: solid green 2px; */
+  height: 80Opx;
+}
+
+#box3{
+    background-color: #2c3e50;
+}
+
+/* #box4{
+    /* border: 2px solid red; }*/
+
+
+#cont {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: 2PX solid rgb(195, 8, 8);
+}
+
+#cohete{
+  align-items: center;
+}
+
+/* #lunaPequena{
+  margin-right:50%;
+
+} */
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaTextoPrincipal{
+  flex-wrap: wrap;
+  justify-content: stretch;
+   width: 90%;
+   height:190px;
+    background-color: #1d0d39;
+   border-radius:50px;
+  -moz-border-radius:50px;
+  -webkit-border-radius:50px;
+}
+
+.caja{
+    flex-wrap: wrap;
+    justify-content: stretch;
+    /* background: rgba(0,0,0,0,3);*/
+     width: 30%;
+     height:50%;
+     /* border: solid green 2px;  */
+     background-color: whitesmoke;
+     border-radius:50px;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+  }
+
+
+
+.textBox{
+    width: 15%;
+    height: 18px;
+    
+}
+
+
+
+  
+.divider-custom .divider-custom-icon {
+    color: #2c3e50!important;
+    font-size: 2rem;
+  text-align:center;
+}
+
+.divider-custom1 .divider-custom-icon {
+    color: white!important;
+    font-size: 2rem;
+  text-align:center;
+}
+
+
+footer {
+  /* border: solid red 2px; */
+  background-color: #1d0d39;
+  height: 50px;
+  
+}
+
+#copyrightFooter{
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  height: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  section {
+    flex-direction: column;
+    background: blue;
+  }
+  #cont {
+    flex-direction: column;
+  }
+
+  /* #luna{
+    width: 2%;
+    height:2%;
+    
+  } */
+
+  nav {
+    background: transparent;
+    
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .caja {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .texto1 {
+    font-size: 1.2em;
+  }
+}
+
+
+/* Estilo para el botón circular pequeño */
+.small-circle-btn {
+  position: fixed; /* Fija el botón en la pantalla */
+  bottom: 20px; /* Ajusta la posición desde el fondo */
+  right: 20px; /* Ajusta la posición desde el borde derecho */
+  width: 40px; /* Diámetro del botón (1 cm aproximadamente) */
+  height: 40px; /* Diámetro del botón (1 cm aproximadamente) */
+  border-radius: 50%; /* Hace que el botón sea circular */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  font-size: 1.2em; /* Tamaño del icono en el botón */
+  display: flex; /* Utiliza flexbox para centrar el icono */
+  align-items: center; /* Centra verticalmente el icono */
+  justify-content: center; /* Centra horizontalmente el icono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+  transition: background-color 0.3s; /* Transición para el color de fondo */
+}
+
+.small-circle-btn:hover {
+  background-color: #034d3a; /* Color de fondo en hover */
+}
+
+
+/* Estilo para el botón circular pequeño */
+.small-circle-btn {
+  position: fixed; /* Fija el botón en la pantalla */
+  bottom: 20px; /* Ajusta la posición desde el fondo */
+  right: 20px; /* Ajusta la posición desde el borde derecho */
+  width: 40px; /* Diámetro del botón (1 cm aproximadamente) */
+  height: 40px; /* Diámetro del botón (1 cm aproximadamente) */
+  border-radius: 50%; /* Hace que el botón sea circular */
+  background-color: #dc419d; /* Oro */
+  ; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  font-size: 1.2em; /* Tamaño del icono en el botón */
+  display: flex; /* Utiliza flexbox para centrar el icono */
+  align-items: center; /* Centra verticalmente el icono */
+  justify-content: center; /* Centra horizontalmente el icono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
+  transition: background-color 0.3s; /* Transición para el color de fondo */
+}
+
+.small-circle-btn:hover {
+  background-color: #0056b3; /* Color de fondo en hover */
+}
+
+
+
+/* Estilo para el botón que abre el popup */
+.open-popup-btn {
+  position: fixed; /* Fija el botón en la pantalla */
+  bottom: 20px; /* Ajusta desde la parte inferior de la pantalla */
+  right: 20px; /* Ajusta desde el borde derecho de la pantalla */
+  background-color: #007bff; /* Color del botón */
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Botón circular */
+  width: 50px;
+  height: 50px;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+  z-index: 1001; /* Asegura que esté encima del popup */
+}
+
+/* Estilo del popup */
+.popup {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Fija en la pantalla */
+  top: 50%;
+  left: 3%;
+  transform: translate(-50%, -50%); /* Centra el popup */
+  width: 80%;
+  max-width: 500px;
+  max-height: 80%;
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1000; /* Asegura que esté encima de otros elementos */
+  text-align: center;
+  overflow-y: auto; /* Desplazamiento vertical */
+  overflow-x: hidden; /* Sin desplazamiento horizontal */
+}
+
+/* Botón de cierre en la esquina */
+.close-popup-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #ff6f61;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Botón de cierre al pie del popup */
+.close-popup {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-popup:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo del enlace */
+.popup-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popup-link:hover {
+  text-decoration: underline;
+}
+
+.popup-img {
+  width: 250px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 8px; /* Redondea los bordes de la imagen, si es necesario */
+  margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+

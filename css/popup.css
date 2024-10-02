@@ -1,0 +1,63 @@
+/* Título del popup */
+.author-popup h1 {
+    font-size: 1.2em;
+    color: #add8e6; /* Azul claro */
+    margin: 0 0 10px 0;
+    text-align: center; /* Centra el título */
+  }
+  
+  /* Imagen del autor */
+  .author-popup img {
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Imagen circular */
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+    margin: 10px 0;
+  }
+  
+  /* Párrafos del popup */
+  .author-popup p {
+    margin: 5px 0;
+    line-height: 1.5; /* Mejora la legibilidad */
+  }
+  
+  /* Botón de cierre en la parte superior */
+  .close-author-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff6f61; /* Rojo coral */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .close-author-popup:hover {
+    background-color: #ff4d4d;
+  }
+  
+  /* Botón azul en la parte inferior */
+  .blue-close-popup {
+    display: block;
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 20px auto 0; /* Centra el botón y le da espacio superior */
+  }
+  
+  .blue-close-popup:hover {
+    background-color: #0056b3;
+  }
