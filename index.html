@@ -271,7 +271,7 @@
 
 <!-- Ventana emergente 2 -->
 <div id="popup2" class="popup">
-  <h1>🔒 PRIVACIDAD</h1>
+  <h1>🔒PRIVACIDAD</h1>
   <center>
   <p>
     <div class="privacy-policy">
@@ -284,10 +284,12 @@
       <h3>2. Información que recopilamos</h3>
       <p>Recopilamos la siguiente información personal cuando interactúas con el Sitio:</p>
       <ul>
-          <li><strong>Datos de contacto:</strong> Colectivo: Líderes conscientes con correo: lideresconscientescolombia@gmail.com</li>
-          <li><strong>Datos de uso:</strong> Información sobre cómo accedes y utilizas el Sitio, incluidos tus hábitos de navegación y preferencias.</li>
-          <li><strong>Cookies y tecnologías similares:</strong> Recopilamos datos a través de cookies y tecnologías relacionadas, como se detalla en nuestra <a href="#popup1" onclick="togglePopup('popup1')">Política de Cookies</a>.</li>
-      </ul>
+        <li><strong>Datos de contacto:</strong> Colectivo: Líderes conscientes con correo: lideresconscientescolombia@gmail.com</li>
+        <li><strong>Datos de uso:</strong> Información sobre cómo accedes y utilizas el Sitio, incluidos tus hábitos de navegación y preferencias.</li>
+        <li><strong>Cookies y tecnologías similares:</strong> Recopilamos datos a través de cookies y tecnologías relacionadas, como se detalla en nuestra 
+          <a href="javascript:void(0);" onclick="togglePopup('popup1')">Política de Cookies</a>
+        </li>
+    </ul>
   
       <h3>3. Finalidades del tratamiento de tus datos</h3>
       <p>La información que recopilamos se utiliza para las siguientes finalidades:</p>
@@ -380,7 +382,13 @@
 <!-- Banner de Cookies Emergente -->
 <div id="cookie-banner" class="cookie-banner">
   <div class="banner-content">
-      <p>Este sitio web utiliza cookies para mejorar tu experiencia de navegación y ofrecerte recomendaciones personalizadas. Al continuar utilizando nuestro sitio web, aceptas nuestra <a href="#popup1" onclick="togglePopup('popup1')">Política de Cookies</a> y <a href="javascript:void(0);" onclick="togglePopup('popup2')">Política de Privacidad</a>.</p>
+      <p>🍪Este sitio web utiliza cookies para mejorar tu experiencia
+         de navegación y ofrecerte recomendaciones personalizadas. 
+         Al continuar utilizando nuestro sitio web, 
+         aceptas nuestra <a href="#popup1" onclick="togglePopup('popup1')">
+          Política de Cookies</a>, 
+          <a href="javascript:void(0);" onclick="togglePopup('popup2')">Política de Privacidad</a>
+           y <a href="javascript:void(0);" onclick="togglePopup('popup3')">Términos de uso</a>.</p>
       <button id="accept-cookies" class="accept-btn">Aceptar</button>
   </div>
 </div>
@@ -405,6 +413,34 @@ document.getElementById('accept-cookies').onclick = function() {
 window.onload = showCookieBanner;
 
 </script>
+
+
+ <script>
+        // Función para abrir una ventana emergente
+        function togglePopup(popupId) {
+            var popup = document.getElementById(popupId);
+            popup.style.display = 'block';
+        }
+
+        // Función para cerrar una ventana emergente
+        function closePopup(popupId) {
+            var popup = document.getElementById(popupId);
+            popup.style.display = 'none';
+        }
+
+        // Cierra las ventanas emergentes al hacer clic fuera de ellas
+        window.onclick = function(event) {
+            var popup1 = document.getElementById('popup1');
+            var popup2 = document.getElementById('popup2');
+            if (event.target === popup1) {
+                closePopup('popup1');
+            }
+            if (event.target === popup2) {
+                closePopup('popup2');
+            }
+        }
+    </script>
+
 
 
     <script>
