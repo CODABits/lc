@@ -720,3 +720,45 @@ footer {
 .accept-btn:hover {
   background-color: #45a049; /* Color verde oscuro al pasar el mouse */
 }
+
+
+
+/* Estilo del popup */
+.popup {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+/* Botón de cierre */
+.close-popup {
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para el botón pequeño */
+.small-circle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: crimson;
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
