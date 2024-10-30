@@ -512,31 +512,6 @@ footer {
   width: 40px; /* Diámetro del botón (1 cm aproximadamente) */
   height: 40px; /* Diámetro del botón (1 cm aproximadamente) */
   border-radius: 50%; /* Hace que el botón sea circular */
-  background-color: #007bff; /* Color de fondo del botón */
-  color: #fff; /* Color del texto del botón */
-  border: none; /* Sin borde */
-  font-size: 1.2em; /* Tamaño del icono en el botón */
-  display: flex; /* Utiliza flexbox para centrar el icono */
-  align-items: center; /* Centra verticalmente el icono */
-  justify-content: center; /* Centra horizontalmente el icono */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  z-index: 1000; /* Asegura que el botón esté encima de otros elementos */
-  transition: background-color 0.3s; /* Transición para el color de fondo */
-}
-
-.small-circle-btn:hover {
-  background-color: #034d3a; /* Color de fondo en hover */
-}
-
-
-/* Estilo para el botón circular pequeño */
-.small-circle-btn {
-  position: fixed; /* Fija el botón en la pantalla */
-  bottom: 20px; /* Ajusta la posición desde el fondo */
-  right: 20px; /* Ajusta la posición desde el borde derecho */
-  width: 40px; /* Diámetro del botón (1 cm aproximadamente) */
-  height: 40px; /* Diámetro del botón (1 cm aproximadamente) */
-  border-radius: 50%; /* Hace que el botón sea circular */
   background-color: crimson; /* Oro */
   ; /* Color de fondo del botón */
   color: #fff; /* Color del texto del botón */
@@ -553,7 +528,6 @@ footer {
 .small-circle-btn:hover {
   background-color: #0056b3; /* Color de fondo en hover */
 }
-
 
 
 /* Estilo para el botón que abre el popup */
@@ -643,48 +617,7 @@ footer {
 
 
 
-/* Estilo para los nuevos botones en la parte inferior izquierda */
-.small-circle-btn {
-  position: fixed;
-  bottom: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: crimson;
-  color: #fff;
-  border: none;
-  font-size: 1.2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 1000;
-  transition: background-color 0.3s;
-}
 
-.small-circle-btn:hover {
-  background-color: #0056b3;
-}
-
-/* Posiciona cada ventana emergente en el centro */
-.popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  max-width: 500px;
-  max-height: 80%;
-  background-color: #fff;
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  z-index: 1000;
-  text-align: center;
-  overflow-y: auto;
-}
 
 .cookie-banner {
   background-color: rgba(240, 240, 240, 0.9); /* Fondo semi-transparente */
@@ -721,44 +654,3 @@ footer {
   background-color: #45a049; /* Color verde oscuro al pasar el mouse */
 }
 
-
-
-/* Estilo del popup */
-.popup {
-  display: none; /* Oculto por defecto */
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  z-index: 1000;
-}
-
-/* Botón de cierre */
-.close-popup {
-  background-color: crimson;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Estilo para el botón pequeño */
-.small-circle-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: crimson;
-  color: #fff;
-  font-size: 1.2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
