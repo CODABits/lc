@@ -98,7 +98,7 @@
           
             </p>
          <br>
-         <a id="botonMain" class="boton" style="margin: 0 auto;" Target='_blank' href="programa.html">Programa</a>  
+         <a id="botonMain" class="boton" style="margin: 0 auto;" Target='_blank' href="programa-liderazgo.html">Programa</a>  
           <a id="botonMain" class="boton" style="margin: 0 auto;" Target='_blank' href="bootcamp/capacitaciones-liderazgo.html">Bootcamp</a>  
          <a id="botonMain" class="boton" style="margin: 0 auto" Target='_blank' href=".html">Mentorías</a>  
         <!-- <a id="botonMain" class="boton" style="margin: 0 auto;" Target='_blank' href=".html">Reto 4</a>   -->
@@ -178,7 +178,7 @@
 <button class="small-circle-btn" onclick="togglePopup()">👨🏻‍⚕️</button>
 
 <!-- Ventana emergente -->
-<div id="popup" class="popup">
+<div id="popupindex" class="popup">
     <h1>PROPUESTA</h1>
     <center><img src="assets/img/cover-licons.webp" alt="Líderes conscientes en Manizales Colombia 2025" class="popup-img">
       <p style="color: #800000;"><b>¡Eleva tus competencias clínicas en psicología!</b> <br>Explora nuestros contenidos y domina las habilidades clave para destacar en tu práctica profesional.</p>
@@ -513,6 +513,35 @@ function closePopup(popupId) {
         }
       }
       
+      </script>
+
+
+
+
+<!-- cerrado popup index -->
+ 
+      <script>
+    // Función para mostrar y ocultar la ventana emergente
+function togglePopup() {
+    const popup = document.getElementById("popupindex");
+    popup.style.display = popup.style.display === "block" ? "none" : "block";
+}
+
+// Función para cerrar la ventana emergente
+function closePopup() {
+    const popup = document.getElementById("popupindex");
+    popup.style.display = "none"; // Oculta la ventana emergente
+}
+
+// Si deseas cerrar el popup al hacer clic fuera de él
+window.onclick = function(event) {
+    const popup = document.getElementById("popupindex");
+    if (event.target === popup) {
+        closePopup();
+    }
+}
+
+
       </script>
       
       
