@@ -175,32 +175,34 @@
     <footer>
            
 <!-- Botón para abrir la ventana emergente -->
-<button class="small-circle-btn" onclick="togglePopup()">👨🏻‍⚕️</button>
+<button class="small-circle-btn" onclick="togglePopup('popupindex')">👨🏻‍⚕️</button>
 
 <!-- Ventana emergente -->
-<div id="popupindex" class="popup">
+<div id="popupindex" class="popup" style="display:none;">
     <h1>PROPUESTA</h1>
-    <center><img src="assets/img/cover-licons.webp" alt="Líderes conscientes en Manizales Colombia 2025" class="popup-img">
-      <p style="color: #800000;"><b>¡Eleva tus competencias clínicas en psicología!</b> <br>Explora nuestros contenidos y domina las habilidades clave para destacar en tu práctica profesional.</p>
-    <a href="afiliados.html" target="_blank"
-       style="
-         display: inline-block;
-         padding: 10px 20px;
-         font-size: 1em;
-         color: #fff;
-         background-color: #800000;
-         border: 2px solid #800000;
-         border-radius: 25px;
-         text-decoration: none;
-         text-align: center;
-         transition: background-color 0.3s, border-color 0.3s;
-       "
-       onmouseover="this.style.backgroundColor='#600000'; this.style.borderColor='#600000';"
-       onmouseout="this.style.backgroundColor='#800000'; this.style.borderColor='#800000';">
-       Contenidos
-    </a></center>
+    <center>
+        <img src="assets/img/cover-licons.webp" alt="Líderes conscientes en Manizales Colombia 2025" class="popup-img">
+        <p style="color: #800000;"><b>¡Eleva tus competencias clínicas en psicología!</b> <br>Explora nuestros contenidos y domina las habilidades clave para destacar en tu práctica profesional.</p>
+        <a href="afiliados.html" target="_blank"
+           style="
+             display: inline-block;
+             padding: 10px 20px;
+             font-size: 1em;
+             color: #fff;
+             background-color: #800000;
+             border: 2px solid #800000;
+             border-radius: 25px;
+             text-decoration: none;
+             text-align: center;
+             transition: background-color 0.3s, border-color 0.3s;
+           "
+           onmouseover="this.style.backgroundColor='#600000'; this.style.borderColor='#600000';"
+           onmouseout="this.style.backgroundColor='#800000'; this.style.borderColor='#800000';">
+           Contenidos
+        </a>
+    </center>
     <br><br>
-    <button class="close-popup" onclick="closePopup()">⚡Cerrar</button>
+    <button class="close-popup" onclick="closePopup('popupindex')">⚡Cerrar</button>
 </div>
 
 
