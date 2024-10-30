@@ -173,33 +173,19 @@
     <br>
     <br>
     <footer>
-           
-<!-- Botón para abrir la ventana emergente -->
+       <!-- Botón para abrir la ventana emergente -->
 <button class="small-circle-btn" onclick="togglePopup()">👨🏻‍⚕️</button>
 
 <!-- Ventana emergente -->
 <div id="popupindex" class="popup">
     <h1>PROPUESTA</h1>
-    <center><img src="assets/img/cover-licons.webp" alt="Líderes conscientes en Manizales Colombia 2025" class="popup-img">
-      <p style="color: #800000;"><b>¡Eleva tus competencias clínicas en psicología!</b> <br>Explora nuestros contenidos y domina las habilidades clave para destacar en tu práctica profesional.</p>
-    <a href="afiliados.html" target="_blank"
-       style="
-         display: inline-block;
-         padding: 10px 20px;
-         font-size: 1em;
-         color: #fff;
-         background-color: #800000;
-         border: 2px solid #800000;
-         border-radius: 25px;
-         text-decoration: none;
-         text-align: center;
-         transition: background-color 0.3s, border-color 0.3s;
-       "
-       onmouseover="this.style.backgroundColor='#600000'; this.style.borderColor='#600000';"
-       onmouseout="this.style.backgroundColor='#800000'; this.style.borderColor='#800000';">
-       Contenidos
-    </a></center>
-    <br><br>
+    <center>
+        <img src="assets/img/cover-licons.webp" alt="Líderes conscientes en Manizales Colombia 2025" class="popup-img">
+        <p style="color: #800000;">
+            <b>¡Eleva tus competencias clínicas en psicología!</b> <br>Explora nuestros contenidos y domina las habilidades clave para destacar en tu práctica profesional.
+        </p>
+        <a href="afiliados.html" target="_blank" class="popup-link">Contenidos</a>
+    </center>
     <button class="close-popup" onclick="closePopup()">⚡Cerrar</button>
 </div>
 
@@ -521,7 +507,7 @@ function closePopup(popupId) {
 <!-- cerrado popup index -->
  
       <script>
-    // Función para mostrar y ocultar la ventana emergente
+   // Función para mostrar y ocultar la ventana emergente
 function togglePopup() {
     const popup = document.getElementById("popupindex");
     popup.style.display = popup.style.display === "block" ? "none" : "block";
@@ -530,16 +516,17 @@ function togglePopup() {
 // Función para cerrar la ventana emergente
 function closePopup() {
     const popup = document.getElementById("popupindex");
-    popup.style.display = "none"; // Oculta la ventana emergente
+    popup.style.display = "none";
 }
 
-// Si deseas cerrar el popup al hacer clic fuera de él
+// Cierra el popup al hacer clic fuera de él
 window.onclick = function(event) {
     const popup = document.getElementById("popupindex");
     if (event.target === popup) {
         closePopup();
     }
 }
+
 
 
       </script>
