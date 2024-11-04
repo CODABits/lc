@@ -74,22 +74,21 @@ function closePopup() {
 
 // Nuevo código para cargar el JSON
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('https://CODABits.github.io/lc/data/lf20_aqs6jts7.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok: ' + response.statusText);
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log(data);
-            document.getElementById('json-output').textContent = JSON.stringify(data, null, 2); // Muestra el JSON en el elemento <pre>
-        })
-        .catch(error => {
-            console.error('Error:', error);
-            document.getElementById('json-output').textContent = 'Error al cargar el JSON: ' + error.message; // Muestra el error en la página
-        });
-});
-
+    // Solicitud fetch para obtener el archivo JSON
+    fetch('https://www.lideresconscientes.co/data/lf20_aqs6jts7.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok: ' + response.statusText);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Aquí puedes manejar los datos obtenidos del JSON
+        console.log(data);
+        // Por ejemplo, podrías animar un elemento usando los datos
+      })
+      .catch(error => console.error('Error:', error));
+  });
   
+
 
