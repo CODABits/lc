@@ -73,6 +73,7 @@ function closePopup() {
 }
 
 // Nuevo código para cargar el JSON
+fetch('https://CODABits.github.io/lc/data/lf20_aqs6jts7.json')
 fetch('./data/lf20_aqs6jts7.json')
   .then(response => {
     if (!response.ok) {
@@ -82,4 +83,6 @@ fetch('./data/lf20_aqs6jts7.json')
   })
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
+
+  
 
