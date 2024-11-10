@@ -1,0 +1,272 @@
+/* Reinicio básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+ 
+
+}
+
+
+
+.hero {
+  background: #cc31b7;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+
+.logo-circular img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.boton-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton-cta:hover {
+  background-color: #333;
+  transform: scale(1.1);
+}
+
+
+.sobre, .programas, .testimonios, .cta {
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.tarjeta-programa {
+  background: #cc31b7;
+  border: 1px solid #003366;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+
+/* Estilos para la sección de programas */
+.programas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 0;
+}
+
+/* Estilo para cada tarjeta */
+.tarjeta-programa {
+  background: #cc31b7;
+  border: 1px solid #003366;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px; /* Máximo ancho de las tarjetas */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Efecto de ampliación al pasar el mouse */
+.tarjeta-programa:hover {
+  transform: scale(1.05); /* Aumenta el tamaño al 5% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega sombra para dar profundidad */
+}
+
+/* Estilo para las imágenes dentro de la tarjeta */
+.logo-circular img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  display: block;
+  margin: 10px auto;
+}
+
+.logo-circular img,
+.imagen-testimonio img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* Sección de Programas */
+.programas {
+  text-align: center;  /* Centra el título */
+  padding: 2rem 0;
+}
+
+/* Contenedor para las tarjetas */
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas si es necesario */
+  justify-content: center; /* Centra las tarjetas */
+  gap: 2rem; /* Espacio entre las tarjetas */
+  margin-top: 2rem; /* Espacio entre el título y las tarjetas */
+}
+
+/* Estilo para cada tarjeta */
+.tarjeta-programa {
+  background: #cc31b7;
+  border: 1px solid #00bcd4;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%; /* Máximo ancho de las tarjetas */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Efecto de ampliación al pasar el mouse */
+.tarjeta-programa:hover {
+  transform: scale(1.05); /* Aumenta el tamaño al 5% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega sombra para dar profundidad */
+}
+
+/* Estilo para las imágenes dentro de la tarjeta */
+.logo-circular img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  display: block;
+  margin: 10px auto;
+  
+}
+
+img {
+  max-width: 100%; 
+  height: auto;
+}
+
+
+/* Sección de Programas */
+.programas {
+  text-align: center;  /* Centra el título en todas las pantallas */
+  padding: 2rem 0;
+  width: 100%;  /* Asegura que la sección ocupe todo el ancho disponible */
+  box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
+}
+
+/* Contenedor para las tarjetas */
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias filas si es necesario */
+  justify-content: center; /* Centra las tarjetas */
+  gap: 2rem; /* Espacio entre las tarjetas */
+  margin-top: 2rem; /* Espacio entre el título y las tarjetas */
+}
+
+/* Estilo para cada tarjeta */
+.tarjeta-programa {
+  background: #cc31b7;
+  border: 1px solid #003366;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px; /* Máximo ancho de las tarjetas */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Efecto de ampliación al pasar el mouse */
+.tarjeta-programa:hover {
+  transform: scale(1.05); /* Aumenta el tamaño al 5% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega sombra para dar profundidad */
+}
+
+/* Estilo para las imágenes dentro de la tarjeta */
+.logo-circular img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  display: block;
+  margin: 10px auto;
+}
+
+/* Estilo para el título de la sección */
+.programas h2 {
+  text-align: center;  /* Asegura que el título esté centrado */
+  font-size: 2rem; /* Tamaño adecuado para el título */
+  color: #333; /* Color del texto del título */
+  margin-bottom: 2rem;  /* Espacio debajo del título */
+  width: 100%;
+  display: block;
+}
+
+
+/* Estilo para los títulos de las tarjetas */
+.tarjeta-programa h3 {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+/* Estilo para los párrafos de las tarjetas */
+.tarjeta-programa p {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Media Query para pantallas grandes */
+@media (min-width: 1024px) {
+  .programas {
+    padding: 4rem 0; /* Mayor espacio en pantallas grandes */
+    margin: 0 auto;
+  }
+
+  .contenedor-tarjetas {
+    justify-content: space-evenly; /* Alinea las tarjetas uniformemente en pantallas grandes */
+  }
+}
+
+
+
+
+
+.testimonios blockquote {
+  font-style: italic;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.testimonios cite {
+  display: block;
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.imagen-testimonio img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 80%);
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 80%);
+}
+
+.cta {
+  background: #00bcd4;
+  padding: 2rem;
+}
